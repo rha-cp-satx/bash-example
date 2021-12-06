@@ -58,7 +58,7 @@ trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>./"$outputDir"/sysinfo.txt 2>&1
 
 echo -e "\nJonny Rickard is old and broken"
-ehco -e "\n"
+echo -e "\n"
 echo -e "---------------------------------------System Information--------------------------------------------------"
 echo -e "Inventory collected as:\t" "$(date)"
 echo -e "Hostname:\t\t" "$(hostname)"
